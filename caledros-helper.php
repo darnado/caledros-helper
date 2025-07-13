@@ -13,7 +13,7 @@
  * Text Domain: caledros-helper
  * Domain Path: /languages
  * 
- * Caledros Helper - A Wordpress plugin
+ * Caledros Helper - A WordPress plugin
  * Copyright (C) 2025  David Arnado
  * 
  * This file is part of Caledros Helper.
@@ -53,4 +53,4 @@ function caledros_helper_activate() {
     update_option('caledros_helper_remove_default_block_patterns', 1);
     update_option('caledros_helper_deactivate_rest_api', 0);
 }
-add_action('after_switch_theme', 'caledros_helper_activate');
+register_activation_hook(__FILE__, 'caledros_helper_activate');

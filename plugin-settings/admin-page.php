@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * GNU General Public License for more details.
 
  * You should have received a copy of the GNU General Public License along
- * with Caledros Forge Theme; if not, see <https://www.gnu.org/licenses/>.
+ * with Caledros Helper; if not, see <https://www.gnu.org/licenses/>.
  */
 
 // Register theme settings
