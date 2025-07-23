@@ -10,7 +10,7 @@ This plugin allows the user to disable the default block patterns, and to deacti
 2. In your WordPress admin area, go to Plugins → Add Plugin → Upload Plugin
 3. Choose the ZIP file you downloaded and click Install Now.
 4. Activate the plugin after installation.
-5. After activation, the **Remove default block patterns** option will be activated by default. The **Deactivate REST API for non-authenticated users** will be deactivated by default.
+5. After activation, the plugin features will be deactivated by default.
 
 ## :hammer_and_wrench: Usage
 

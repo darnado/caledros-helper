@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Caledros Helper - A Wordpress plugin
+ * Caledros Helper - A WordPress plugin
  * Copyright (C) 2025  David Arnado
  * 
  * This file is part of Caledros Helper.

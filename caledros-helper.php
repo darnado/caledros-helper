@@ -50,7 +50,7 @@ require_once(CALEDROS_HELPER_BASE_FOLDER . '/plugin-settings/admin-page.php');
 
 // Run on plugin activation
 function caledros_helper_activate() {
-    update_option('caledros_helper_remove_default_block_patterns', 1);
+    update_option('caledros_helper_remove_default_block_patterns', 0);
     update_option('caledros_helper_deactivate_rest_api', 0);
 }
 register_activation_hook(__FILE__, 'caledros_helper_activate');
