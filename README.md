@@ -6,11 +6,19 @@ This plugin allows the user to disable the default block patterns, and to deacti
 
 ## :package: Installation
 
-1. Download the plugin ZIP file from the releases section of this Github repository.
-2. In your WordPress admin area, go to Plugins → Add Plugin → Upload Plugin
+**Option 1:** From Your WordPress Dashboard
+
+1. Go to your WordPress admin area.
+2. Navigate to Plugins → Add Plugin.
+3. In the Search Plugins box, type “Caledros Helper”.
+4. Click Install Now, then Activate.
+
+**Option 2:** Manual Installation
+
+1. Download the plugin ZIP file from [WordPress.org](https://wordpress.org/plugins/caledros-helper/)
+2. In your WordPress admin area, go to Plugins → Add Plugin → Upload Plugin.
 3. Choose the ZIP file you downloaded and click Install Now.
 4. Activate the plugin after installation.
-5. After activation, the plugin features will be deactivated by default.
 
 ## :hammer_and_wrench: Usage
 
