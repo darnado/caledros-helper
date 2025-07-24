@@ -9,7 +9,7 @@ Requires PHP: 8.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-Adds an Admin Menu that lets the user remove the default block patterns. It also allows deactivating the WordPress REST API for non-authenticated users.
+Adds an Admin Menu that allows removing the default block patterns. It also allows deactivating the WordPress REST API for non-authenticated users.
 
 == Description ==
 
