@@ -1,7 +1,12 @@
 <?php
+/**
+ * Hides default block patterns
+ *
+ * @package Caledros_Helper
+ */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+	exit; // Exit if accessed directly.
 }
 
 /**
@@ -24,7 +29,16 @@ if ( ! defined( 'ABSPATH' ) ) {
  * with Caledros Helper; if not, see <https://www.gnu.org/licenses/>.
  */
 
-// Remove default block patterns
+/**
+ * Hides default block patterns
+ *
+ * When the 'caledros_helper_remove_default_block_patterns' option is equal to 1,
+ * then the core-block-patterns feature is de-registered.
+ *
+ * Hooked into the 'after_setup_theme' action.
+ *
+ * @return void
+ */
 add_action(
 	'after_setup_theme',
 	function () {
