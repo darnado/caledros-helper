@@ -53,9 +53,18 @@ function caledros_helper_register_settings() {
 }
 add_action( 'admin_init', 'caledros_helper_register_settings' );
 
-// Sanitization callback function.
+
+/**
+ * Sanitizes a checkbox input's value
+ *
+ * Converts the input's value into an integer for storage. It returns 1 when the
+ * checkbox is checked (input's value equal to '1') and 0 otherwise.
+ *
+ * @param string $input Checkbox value from the settings form.
+ *
+ * @return integer Sanitized input value
+ */
 function caledros_helper_sanitize_settings_input( $input ) {
-	// Checkbox: save '1' if checked, otherwise '0'.
 	return ( '1' === $input ) ? 1 : 0;
 }
 
