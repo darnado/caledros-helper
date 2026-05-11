@@ -68,7 +68,15 @@ function caledros_helper_sanitize_settings_input( $input ) {
 	return ( '1' === $input ) ? 1 : 0;
 }
 
-// Add admin page.
+
+/**
+ * Adds admin menu page
+ *
+ * Adds the plugin's admin menu page to the WordPress dashboard.
+ * The menu is located at the sidebar's bottom, after Settings
+ *
+ * @return void
+ */
 function caledros_helper_add_settings_page() {
 	add_menu_page(
 		'Caledros Helper',
@@ -77,12 +85,19 @@ function caledros_helper_add_settings_page() {
 		'caledros-helper-settings',
 		'caledros_helper_render_settings_page',
 		'dashicons-admin-generic',
-		60
+		null
 	);
 }
 add_action( 'admin_menu', 'caledros_helper_add_settings_page' );
 
-// Render the admin page.
+/**
+ * Renders admin settings page
+ *
+ * Renders the admin settings page. This page can be accessed through the "Caledros Helper"
+ * top level menu located in the dashboard's sidebar.
+ *
+ * @return void
+ */
 function caledros_helper_render_settings_page() {
 	?>
 	<div class="wrap">
