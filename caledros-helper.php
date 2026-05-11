@@ -3,7 +3,7 @@
  * Plugin Name: Caledros Helper
  * Plugin URI: https://caledrosforge.com/
  * Description: Adds additional features for managing the REST API and default patterns.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.8
  * Requires PHP: 8.3
  * Author: David Arnado
@@ -14,7 +14,7 @@
  * Domain Path: /languages
  *
  * Caledros Helper - A WordPress plugin
- * Copyright (C) 2025  David Arnado
+ * Copyright (C) 2025-2026 David Arnado
  *
  * This file is part of Caledros Helper.
  *

@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Caledros Helper - A WordPress plugin
- * Copyright (C) 2025  David Arnado
+ * Copyright (C) 2025-2026 David Arnado
  *
  * This file is part of Caledros Helper.
  *
