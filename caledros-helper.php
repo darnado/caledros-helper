@@ -30,25 +30,34 @@
 
  * You should have received a copy of the GNU General Public License along
  * with Caledros Helper; if not, see <https://www.gnu.org/licenses/>.
+ *
+ * @package Caledros_Helper
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+	exit; // Exit if accessed directly.
 }
 
-// Define base folder
+// Define base folder.
 define( 'CALEDROS_HELPER_BASE_FOLDER', plugin_dir_path( __FILE__ ) );
 
-// Remove default block patterns
+// Remove default block patterns.
 require_once CALEDROS_HELPER_BASE_FOLDER . '/plugin-settings/remove-default-block-patterns.php';
 
-// Deactivate REST API
+// Deactivate REST API.
 require_once CALEDROS_HELPER_BASE_FOLDER . '/plugin-settings/deactivate-rest-api.php';
 
-// Add admin page
+// Add admin page.
 require_once CALEDROS_HELPER_BASE_FOLDER . '/plugin-settings/admin-page.php';
 
-// Run on plugin activation
+/**
+ * Updates plugin options' values
+ *
+ * Upon plugin activation, both plugin options' values are updated to 0.
+ * Hooked into the register_activation_hook function.
+ *
+ * @return void
+ */
 function caledros_helper_activate() {
 	update_option( 'caledros_helper_remove_default_block_patterns', 0 );
 	update_option( 'caledros_helper_deactivate_rest_api', 0 );
