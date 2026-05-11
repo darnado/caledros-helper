@@ -21,6 +21,8 @@ This plugin allows to remove the default block patterns and/or deactivate the Wo
 
 After plugin activation, both options will be disabled by default.
 
+**Important:** If the plugin is deactivated and then reactivated, then both checkboxes will need to be manually checked again.
+
 == Frequently Asked Questions ==
 
 = Can I deactivate the plugin features? =
@@ -39,11 +41,11 @@ No. The REST API is only disabled while the checkbox is enabled. If you uncheck 
 
 This changelog format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Also, this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-= 1.0.1 - 2026-05-12 =
+= 1.0.1 - 2026-05-13 =
 
 **Changed**
 
-* Move top level menu to the sidebar's bottom, after Settings.
+* Move plugin menu to the Tools main menu.
 
 = 1.0.0 - 2025-07-23 =
 

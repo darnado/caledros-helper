@@ -70,21 +70,19 @@ function caledros_helper_sanitize_settings_input( $input ) {
 
 
 /**
- * Adds admin menu page
+ * Adds submenu page to the Tools main menu
  *
- * Adds the plugin's admin menu page to the WordPress dashboard.
- * The menu is located at the sidebar's bottom, after Settings
+ * Adds the plugin's admin menu to the Tools section.
  *
  * @return void
  */
 function caledros_helper_add_settings_page() {
-	add_menu_page(
+	add_management_page(
 		'Caledros Helper',
 		'Caledros Helper',
 		'manage_options',
 		'caledros-helper-settings',
 		'caledros_helper_render_settings_page',
-		'dashicons-admin-generic',
 		null
 	);
 }
