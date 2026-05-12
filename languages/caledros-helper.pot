@@ -1,15 +1,15 @@
-# Copyright (C) 2025 David Arnado
+# Copyright (C) 2025-2026 David Arnado
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Caledros Helper 1.0.0\n"
+"Project-Id-Version: Caledros Helper 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/caledros-helper\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-07-13T22:02:42+00:00\n"
+"POT-Creation-Date: 2026-05-12T20:42:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: caledros-helper\n"
@@ -39,18 +39,18 @@ msgstr ""
 msgid "https://caledrosforge.com/about/"
 msgstr ""
 
-#: plugin-settings/admin-page.php:64
+#: plugin-settings/admin-page.php:102
 msgid "Caledros Helper Settings"
 msgstr ""
 
-#: plugin-settings/admin-page.php:69
+#: plugin-settings/admin-page.php:107
 msgid "Remove default block patterns"
 msgstr ""
 
-#: plugin-settings/admin-page.php:73
+#: plugin-settings/admin-page.php:111
 msgid "Deactivate REST API for non-authenticated users"
 msgstr ""
 
-#: plugin-settings/deactivate-rest-api.php:37
+#: plugin-settings/deactivate-rest-api.php:60
 msgid "This is not the page you are looking for"
 msgstr ""
