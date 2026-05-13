@@ -22,7 +22,7 @@ This plugin allows the user to disable the default block patterns, and to deacti
 
 ## :hammer_and_wrench: Usage
 
-1. In your WordPress admin area, go to **Caledros Helper**.
+1. In your WordPress admin area, go to **Tools**, then to **Caledros Helper**.
 2. Check or uncheck the chosen feature. The available features are: **a)** Remove default block patterns, and **b)** Deactivate REST API for non-authenticated users.
 3. Click on Save Changes.
 
