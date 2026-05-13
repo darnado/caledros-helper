@@ -4,7 +4,7 @@ Contributors: @darnado
 Tags: disable patterns, disable rest api
 Requires at least: 6.8
 Tested up to: 6.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 8.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -13,13 +13,15 @@ Adds an Admin Menu that allows removing the default block patterns. It also allo
 
 == Description ==
 
-This plugin creates a custom Admin Menu with two checkboxes:
+This plugin allows to remove the default block patterns and/or deactivate the WordPress REST API for non-authenticated users. Thus, it adds two checkboxes:
 
 * The first checkbox allows the user to remove the core block patterns from the Gutenberg editor. This feature can be activated or deactivated.
 
 * The second checkbox allows the user to deactivate the WordPress REST API for non-authenticated users. This feature can be activated or deactivated.
 
 After plugin activation, both options will be disabled by default.
+
+**Important:** If the plugin is deactivated and then reactivated, then both checkboxes will need to be manually checked again.
 
 == Frequently Asked Questions ==
 
@@ -37,10 +39,25 @@ No. The REST API is only disabled while the checkbox is enabled. If you uncheck 
 
 == Changelog ==
 
-= 1.0.0 =
-* Added two options. One for removing the default block patterns and one for deactivating the WordPress REST API.
+This changelog format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Also, this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+= 1.0.1 - 2026-05-13 =
+
+**Changed**
+
+* Move plugin menu to the Tools main menu.
+
+= 1.0.0 - 2025-07-23 =
+
+**Added**
+
+* Two options in the top level menu. One for removing the default block patterns and one for deactivating the WordPress REST API.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Move top level menu to the sidebar's bottom, after Settings.
+
 = 1.0.0 =
 First version of the plugin. Adds an Admin Menu with options for removing the default block patterns and for deactivating the WordPress REST API.
 

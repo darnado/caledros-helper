@@ -1,15 +1,20 @@
 <?php
+/**
+ * Hides default block patterns
+ *
+ * @package Caledros_Helper
+ */
 
 if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly
+	exit; // Exit if accessed directly.
 }
 
 /**
  * Caledros Helper - A WordPress plugin
- * Copyright (C) 2025  David Arnado
- * 
+ * Copyright (C) 2025-2026 David Arnado
+ *
  * This file is part of Caledros Helper.
- * 
+ *
  * Caledros Helper is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
@@ -24,9 +29,21 @@ if ( ! defined( 'ABSPATH' ) ) {
  * with Caledros Helper; if not, see <https://www.gnu.org/licenses/>.
  */
 
-// Remove default block patterns
-add_action('after_setup_theme', function() {
-    if(get_option('caledros_helper_remove_default_block_patterns', 1)){
-        remove_theme_support('core-block-patterns');
-    }	
-});
+/**
+ * Hides default block patterns
+ *
+ * When the 'caledros_helper_remove_default_block_patterns' option is equal to 1,
+ * then the core-block-patterns feature is de-registered.
+ *
+ * Hooked into the 'after_setup_theme' action.
+ *
+ * @return void
+ */
+add_action(
+	'after_setup_theme',
+	function () {
+		if ( get_option( 'caledros_helper_remove_default_block_patterns', 1 ) ) {
+			remove_theme_support( 'core-block-patterns' );
+		}
+	}
+);
