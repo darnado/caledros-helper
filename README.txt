@@ -56,7 +56,7 @@ This changelog format is based on [Keep a Changelog](https://keepachangelog.com/
 == Upgrade Notice ==
 
 = 1.0.1 =
-Move top level menu to the sidebar's bottom, after Settings.
+Moves plugin menu to the Tools main menu.
 
 = 1.0.0 =
 First version of the plugin. Adds an Admin Menu with options for removing the default block patterns and for deactivating the WordPress REST API.
